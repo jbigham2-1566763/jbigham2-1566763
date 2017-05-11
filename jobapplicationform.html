@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<head>
+<div id = Title> 
+<title> Joe's Medical School Application  </title>
+<link rel="stylesheet" type="text/css" href="Application.css" />
+</div>
+</head>
+<style>
+body {background-color: powderblue}
+</style>
+<body>
+<div id = "Header">
+<h1> Joe's Medical School Application </h1>
+<h2> Who are you? </h2> 
+First name: <input type="text" name="firstname"><br> Last name: <input type="text" name="lastname"><br> Password: <input type="password" name="pwd">
+</div>
+
+<div id = "Second Header">
+<h2> Why do you want to go to medical school?  </h2>
+<textarea name="essay"></textarea>
+</div>
+
+<div id = "Questions">
+<h2> Can you work in a group? </h2>
+<input type="radio" name="answer" value="yes"> Yes<br> <input type="radio" name="answer" value="no"> No
+<h2> What describes you? </h2>
+<input type="checkbox" name="vehicle" value="Bike">Introvert<br> <input type="checkbox" name="vehicle" value="Car">Extrovert 
+<h2> What do you do on your down time? </h2>
+<select name="cars"> <option value="volvo">Lift weights</option> <option value="saab">play basketball</option> <option value="fiat">netflix</option> <option value="audi">spend time with family</option> </select><br>
+</div>
+
+<div>
+<h2> </h2>
+<input type="submit" value="Submit form">
+</div>
+<form name="input" action="html_form_action.asp" method="post"> ... </form>
